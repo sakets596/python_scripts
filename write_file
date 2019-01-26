@@ -1,0 +1,10 @@
+#!/usr/local/bin/python3
+def write_file():
+   try:
+      f=open("myfile1", "a")
+      f.write("Saket" + "\n")
+      f.close()
+   except:
+      print("Could not write on the file")
+
+write_file()
