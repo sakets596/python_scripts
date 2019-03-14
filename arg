@@ -1,0 +1,12 @@
+#!/usr/local/bin/python3
+
+def var_args(*args):
+    x=args
+    return x
+    
+sum = 0
+tup1=var_args(1,2,3,4,5,6)
+for i in range((len(tup1))):
+    sum = sum + tup1[i]
+
+print(f"sum = {sum}")

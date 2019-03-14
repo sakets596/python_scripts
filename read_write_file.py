@@ -18,11 +18,6 @@ def file_read():
    except:
       print("Could not read from the file mylist1")
 
-#file_write()
-#file_read()
-
-
-
 while True:
    opt=input("Do you want to continue(y/n)?: ")
    if(opt == "y" or opt == "Y"):
